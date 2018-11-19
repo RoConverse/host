@@ -13,4 +13,4 @@ Client = discord.client
 client = commands.Bot(command_prefix = '!')
 Clientdiscord = discord.Client()
 
-client.login(email, password)
+client.run(email, password)
