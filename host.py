@@ -3,6 +3,7 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
 from discord import Game
+import os
 
 email = os.getenv('email')
 password = os.getenv('password')
