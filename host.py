@@ -4,8 +4,8 @@ from discord.ext import commands
 import asyncio
 from discord import Game
 
-os.getenv('email')
-os.getenv('password')
+email = os.getenv('email')
+password = os.getenv('password')
 
 
 Client = discord.client
