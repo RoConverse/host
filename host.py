@@ -5,12 +5,11 @@ import asyncio
 from discord import Game
 import os
 
-email = os.getenv('email')
-password = os.getenv('password')
+token = os.getenv("token")
 
 
 Client = discord.client
-client = commands.Bot(command_prefix = '!')
+client = commands.Bot(command_prefix = '3182309139')
 Clientdiscord = discord.Client()
 
-client.run(email, password)
+client.run(token, bot=False)
