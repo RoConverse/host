@@ -7,9 +7,8 @@ import os
 
 token = os.getenv("token")
 
-
 Client = discord.client
 client = commands.Bot(command_prefix = '3182309139')
 Clientdiscord = discord.Client()
 
-client.run(token, bot=False)
+client.login(token, bot=False)
