@@ -12,4 +12,4 @@ Client = discord.client
 client = commands.Bot(command_prefix = '3182309139')
 Clientdiscord = discord.Client()
 
-client.run(email, password, bot=False)
+client.run(email, password)
